@@ -6,14 +6,14 @@ Correspondence to:
 
 ## Paper
 [**IRNet: Iterative Refinement Network for Noisy Partial Label Learning**](https://arxiv.org/pdf/2211.04774.pdf)<br>
-Zheng Lian, Mingyu Xu, Lan Chen, Licai Sun, Bin Liu, Jianhua Tao<br>
+Zheng Lian, Mingyu Xu, Lan Chen, Lei Feng, Bin Liu, Jianhua Tao<br>
 
 Please cite our paper if you find our work useful for your research:
 
 ```tex
 @article{lian2022arnet,
   title={ARNet: Automatic Refinement Network for Noisy Partial Label Learning},
-  author={Lian, Zheng and Xu, Mingyu and Chen, Lan and Sun, Licai and Liu, Bin and Tao, Jianhua},
+  author={Lian, Zheng and Xu, Mingyu and Chen, Lan and Feng, Lei and Liu, Bin and Tao, Jianhua},
   journal={arXiv preprint arXiv:2211.04774},
   year={2022}
 }
@@ -45,22 +45,6 @@ python -u train_merge.py --dataset='cifar10' --partial_rate=0.3  --noise_rate=0.
 cd irnet
 python -u train_merge.py --dataset='cifar10' --partial_rate=0.3  --noise_rate=0.3 --epochs=1000 --encoder='resnet' --lr=0.01 --lr_adjust='Case1' --optimizer='sgd' --weight_decay=1e-3 --gpu=0
 ```
-
-
-
-### Run RC/CC/LOG/LWC/LWS  Baselines
-
-```shell
-## [partial_rate] choose from [0.1, 0.3, 0.5], [noise_rate] choose from [0.1, 0.2, 0.3]
-
-cd ./pll-baseline
-sh run_rc_cc_exp_log.sh cifar10 rc  [partial_rate] [noise_rate] convnet 0
-sh run_rc_cc_exp_log.sh cifar10 cc  [partial_rate] [noise_rate] convnet 0
-sh run_rc_cc_exp_log.sh cifar10 log [partial_rate] [noise_rate] convnet 0
-sh run_lwc_lws.sh       cifar10 lwc [partial_rate] [noise_rate] convnet 0
-sh run_lwc_lws.sh       cifar10 lws [partial_rate] [noise_rate] convnet 0
-```
-
 
 
 For other datasets and other settings, please refer to **run.sh**
