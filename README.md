@@ -11,7 +11,7 @@ Zheng Lian, Mingyu Xu, Lan Chen, Licai Sun, Bin Liu, Lei Feng, Jianhua Tao<br>
 Please cite our paper if you find our work useful for your research:
 
 ```tex
-@article{lian2022arnet,
+@article{lian2025irnet,
   title={IRNet: Iterative Refinement Network for Noisy Partial Label Learning},
   author={Lian, Zheng and Xu, Mingyu and Chen, Lan and Sun, Licai and Liu, Bin and Feng, Lei and Tao, Jianhua},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
