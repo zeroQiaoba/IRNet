@@ -6,16 +6,16 @@ Correspondence to:
 
 ## Paper
 [**IRNet: Iterative Refinement Network for Noisy Partial Label Learning**](https://arxiv.org/pdf/2211.04774.pdf)<br>
-Zheng Lian, Mingyu Xu, Lan Chen, Licai Sun, Bin Liu, Jianhua Tao<br>
+Zheng Lian, Mingyu Xu, Lan Chen, Licai Sun, Bin Liu, Lei Feng, Jianhua Tao<br>
 
 Please cite our paper if you find our work useful for your research:
 
 ```tex
 @article{lian2022arnet,
-  title={ARNet: Automatic Refinement Network for Noisy Partial Label Learning},
-  author={Lian, Zheng and Xu, Mingyu and Chen, Lan and Sun, Licai and Liu, Bin and Tao, Jianhua},
-  journal={arXiv preprint arXiv:2211.04774},
-  year={2022}
+  title={IRNet: Iterative Refinement Network for Noisy Partial Label Learning},
+  author={Lian, Zheng and Xu, Mingyu and Chen, Lan and Sun, Licai and Liu, Bin and Feng, Lei and Tao, Jianhua},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025}
 }
 ```
 
